@@ -20,7 +20,7 @@ public class Rozdzial_2 {
 //		System.out.print("Zmienna value jest równa ");
 //		System.out.println(value + ".");
 		//2.4 Proste typy danych
-		
+		// 
 	}
 
 }
