@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Rozdzial_2 {
 
@@ -9,18 +10,18 @@ public class Rozdzial_2 {
 //		System.out.print("Trzeci ");
 //		System.out.println("tekst!");
 //Sekwencja ucieczki
-//Umieszczenie instrukcji steruj¹cej bezpoœrednio w tekœcie
-//		System.out.print("Oto najlepiej sprzedaj¹ce siê produkty: \n");
+//Umieszczenie instrukcji sterujï¿½cej bezpoï¿½rednio w tekï¿½cie
+//		System.out.print("Oto najlepiej sprzedajï¿½ce siï¿½ produkty: \n");
 //		System.out.print(" Gry\n kawa\n Aspiryna\n");
-//		System.out.print("Oto najlepiej sprzedaj¹ce siê produkty: \n");
+//		System.out.print("Oto najlepiej sprzedajï¿½ce siï¿½ produkty: \n");
 //		System.out.print(" Gry\t kawa\t Aspiryna");
-// 2.3 Zmienne i litera³y
+// 2.3 Zmienne i literaï¿½y
 //		int value;
 //		value = 5;
-//		System.out.print("Zmienna value jest równa ");
+//		System.out.print("Zmienna value jest rï¿½wna ");
 //		System.out.println(value + ".");
 //2.4 Proste typy danych
-// Zmienne ca³kowitoliczbowe
+// Zmienne caï¿½kowitoliczbowe
 //		int checking;
 //		byte miles;
 //		short minutes;
@@ -29,11 +30,11 @@ public class Rozdzial_2 {
 //		miles = 105;
 //		minutes = 120;
 //		days = 189000;
-//		System.out.println("Odbyliœmy podróz o d³ugoœci " + miles + " mil.");
-//		System.out.println("Zajê³o nam to " + minutes + " minut.");
-//		System.out.println("Stan konta w z³otych wynosi: " + checking);
-//		System.out.println("Oko³o " + days + " dni temu w tym miejscu" +
-//							" sta³ kolummb.");
+//		System.out.println("Odbyliï¿½my podrï¿½z o dï¿½ugoï¿½ci " + miles + " mil.");
+//		System.out.println("Zajï¿½o nam to " + minutes + " minut.");
+//		System.out.println("Stan konta w zï¿½otych wynosi: " + checking);
+//		System.out.println("Okoï¿½o " + days + " dni temu w tym miejscu" +
+//							" staï¿½ kolummb.");
 // Zmienne zmiennoprzecinkowe
 //		double price, tax, total;
 //		price = 29.75;
@@ -42,7 +43,7 @@ public class Rozdzial_2 {
 //		System.out.println("Cena produktu " + 
 //		"wynosi " + price + ".");
 //		System.out.println("Podatek wynosi " + tax + "."); 
-//		System.out.println("£¹czna kwota wynosi " + total + "."); 
+//		System.out.println("ï¿½ï¿½czna kwota wynosi " + total + "."); 
 // Zmienne boolean
 //		boolean bool;
 //		bool = true;
@@ -51,7 +52,7 @@ public class Rozdzial_2 {
 //		System.out.println(bool);
 // Zmienne char - znakowe - tylko jeden znak 
 //		char letter;
-//		letter = 'A'; //Apostrof nie cudzys³ow!!!
+//		letter = 'A'; //Apostrof nie cudzysï¿½ow!!!
 //		System.out.println(letter);
 //		letter = 'B';
 //		System.out.println(letter);
@@ -61,7 +62,7 @@ public class Rozdzial_2 {
 //		System.out.println(letter);
 // Inicjowanie zmiennej
 //		int month = 2, days = 28;
-//		System.out.println("Miesi¹c nr " + month + " ma " +
+//		System.out.println("Miesiï¿½c nr " + month + " ma " +
 //							days + " dni");
 //2.4 Operatory arytmetyczne
 //		int amount, total, price, tax, number, temp, sale, discount;
@@ -73,7 +74,7 @@ public class Rozdzial_2 {
 //		temp = 112 - 14;
 //		sale = sale - discount;
 //		number = number - 1;
-// Program oblicza wyp³atê + dodatek za nadgodziny
+// Program oblicza wypï¿½atï¿½ + dodatek za nadgodziny
 //		double regularWages;
 //		double basePay = 25;
 //		double regularHours = 40;
@@ -84,20 +85,20 @@ public class Rozdzial_2 {
 //		regularWages = basePay * regularHours;
 //		overtimeWages = overtimePay * overtimeHours;
 //		totalWages = regularWages + overtimeHours;
-//		System.out.println("Wyp³ata za ten tydzieñ wynosi " + totalWages + " z³otyc.");
-// Program oblicza kwotê odk³adana wed³ug planu emerytalnego
+//		System.out.println("Wypï¿½ata za ten tydzieï¿½ wynosi " + totalWages + " zï¿½otyc.");
+// Program oblicza kwotï¿½ odkï¿½adana wedï¿½ug planu emerytalnego
 //		double wyplataMiesiac = 6000.0;
 //		double wklad;
-//// 5% pensji odk³adanej mieisêcznie.
+//// 5% pensji odkï¿½adanej mieisï¿½cznie.
 //		wklad = wyplataMiesiac * 0.05;
-//		System.out.println("Odk³adanie 5% daje " + wklad + "z³otych miesiêcznie.");
-//// 8% pensji odk³adanej mieisêcznie.
+//		System.out.println("Odkï¿½adanie 5% daje " + wklad + "zï¿½otych miesiï¿½cznie.");
+//// 8% pensji odkï¿½adanej mieisï¿½cznie.
 //		wklad = wyplataMiesiac * 0.08;
-//		System.out.println("Odk³adanie 8% daje " + wklad + "z³otych miesiêcznie.");
-//// 10% pensji odk³adanej mieisêcznie.
+//		System.out.println("Odkï¿½adanie 8% daje " + wklad + "zï¿½otych miesiï¿½cznie.");
+//// 10% pensji odkï¿½adanej mieisï¿½cznie.
 //		wklad = wyplataMiesiac * 0.10;
-//		System.out.println("Odk³adanie 10% daje " + wklad + "z³otych miesiêcznie.");
-// Rzutowanie typów danych
+//		System.out.println("Odkï¿½adanie 10% daje " + wklad + "zï¿½otych miesiï¿½cznie.");
+// Rzutowanie typï¿½w danych
 //		int liczba = 1;
 //		char znak;
 //		znak = (char)liczba;
@@ -107,72 +108,103 @@ public class Rozdzial_2 {
 //		final double INTEREST_RATE = 0.069;
 //		System.out.println("Cena wynosi " + PRICE + " .");
 //2.8 Klasa String
-		String pozdrowienie = "Dzieñ dobry! ";
-		String imie = "Henryku.";
-		int stringSize;
-		System.out.println(pozdrowienie + imie);
-		imie = "Henryk";
-		stringSize = imie.length();
-		System.out.println("Imie: " + imie + " ma " + stringSize + " znaków.");
-		System.out.println("Tylko ma³e znaki: " + imie.toLowerCase());
-		System.out.println("Tylko DU¯E znaki: " + imie.toUpperCase());		
+//		String pozdrowienie = "Dzieï¿½ dobry! ";
+//		String imie = "Henryku.";
+//		int stringSize;
+//		System.out.println(pozdrowienie + imie);
+//		imie = "Henryk";
+//		stringSize = imie.length();
+//		System.out.println("Imie: " + imie + " ma " + stringSize + " znakï¿½w.");
+//		System.out.println("Tylko maï¿½e znaki: " + imie.toLowerCase());
+//		System.out.println("Tylko DUï¿½E znaki: " + imie.toUpperCase());		
 // Komentarze
 // I. Jednowierszowe
 // ***************************************************************************
 // PROGRAM: Comment1.java
 // Autor: Mateusz Bukowski
-// Ten program oblicza p³ace w firmie.
+// Ten program oblicza pï¿½ace w firmie.
+//		
+//		double payRate;     // Przechowywanie stawki godzinowej
+//		double hours;       // Przechwywanie liczby przepracowanych godzin
+//		int employeeNumber; // Przechowywanie numeru pracownika
 		
-		double payRate;     // Przechowywanie stawki godzinowej
-		double hours;       // Przechwywanie liczby przepracowanych godzin
-		int employeeNumber; // Przechowywanie numeru pracownika
-		
-		// Resztê programu pominiêto.
+		// Resztï¿½ programu pominiï¿½to.
 // II. Wielowierszowe	
 // ***************************************************************************
 /* PROGRAM: Comment1.java
  * Autor: Mateusz Bukowski
- * Ten program oblicza p³ace w firmie.
+ * Ten program oblicza pï¿½ace w firmie.
  */
 				
-				double payRate2;     // Przechowywanie stawki godzinowej
-				double hours2;       // Przechwywanie liczby przepracowanych godzin
-				int employeeNumber2; // Przechowywanie numeru pracownika
+//				double payRate2;     // Przechowywanie stawki godzinowej
+//				double hours2;       // Przechwywanie liczby przepracowanych godzin
+//				int employeeNumber2; // Przechowywanie numeru pracownika
 				
-				// Resztê programu pominiêto.
+				// Resztï¿½ programu pominiï¿½to.
 // ***************************************************************************
 /* 
 PROGRAM: Comment1.java
 Autor: Mateusz Bukowski
-Ten program oblicza p³ace w firmie.
+Ten program oblicza pï¿½ace w firmie.
 */
-	double payRate3;     // Przechowywanie stawki godzinowej
-	double hours3;       // Przechwywanie liczby przepracowanych godzin
-	int employeeNumber3; // Przechowywanie numeru pracownika
+//	double payRate3;     // Przechowywanie stawki godzinowej
+//	double hours3;       // Przechwywanie liczby przepracowanych godzin
+//	int employeeNumber3; // Przechowywanie numeru pracownika
 								
-// Resztê programu pominiêto.
+// Resztï¿½ programu pominiï¿½to.
 	
 	
 	
 /////////////////////////////////////////////
 // PROGRAM: Comment1.java
 // Autor: Mateusz Bukowski
-// Ten program oblicza p³ace w firmie.
+// Ten program oblicza pï¿½ace w firmie.
 ////////////////////////////////////////////
 	
-// III. Komentarze u¿ywane jako dokumentacja (komentarze JAVADOC)
-// Mog¹ byæ wczytywane i przetwa¿ane przez program javadoc
+// III. Komentarze uï¿½ywane jako dokumentacja (komentarze JAVADOC)
+// Mogï¿½ byï¿½ wczytywane i przetwaï¿½ane przez program javadoc
 
 /**
- * Ta klasa tworzy program obliczaj¹cy pensje w firmie.
+ * Ta klasa tworzy program obliczajï¿½cy pensje w firmie.
  */
 
 /**
- * Metoda main jest punktem wejœcia do programu
+ * Metoda main jest punktem wejï¿½cia do programu
  */
 	
+//2.13. Pobieranie danych od uÅ¼ytkownika
+//		int number;
+//		Scanner klawiatura = new Scanner(System.in);
+//		System.out.println("WprowadÅº liczbÄ™ caÅ‚kowitÄ…: ");
+//		number = klawiatura.nextInt();
+//		System.out.println("Gotowe, podaÅ‚eÅ›: " + number);
 	
+	String nazwisko; // Przechowywanie nazwiska.
+	int godziny; 	 // Przechowywanie godziny.
+	double payRate;  // Stawka godzinoowa.
+	double grossPay; // Pensja brutto.
 	
+	// Tworzenie obiektu typu Scanner do wczytania danych wejÅ›Ä‡iowych.
+	Scanner klawiatura = new Scanner(System.in);
+	
+	//Pobranie nazwiska uÅ¼ytkownika.
+	System.out.print("Jak siÄ™ nazywasz? ");
+	nazwisko = klawiatura.nextLine();
+	
+	//Pobieranie liczby godzin przepracowanych w tym tygodniu.
+	System.out.print("Ile godzin przepracowaÅ‚eÅ› w tym tygodniu? ");
+	godziny = klawiatura.nextInt();
+	
+	//Pobieranie stawki godzinowej uÅ¼ytkownika.
+	System.out.print("Ile wynosi stawka godzinowa? ");
+	payRate = klawiatura.nextDouble();
+	
+	//Obliczanie pensji brutto.
+	grossPay = godziny * payRate;
+	
+	// WyÅ›wietlanie wynikowych informacji.
+	System.out.println("Witaj,  " + nazwisko + ".");
+	System.out.println("Twoja pensja brutto wynosi " + grossPay + " zÅ‚otych.");
 	
 	
 	

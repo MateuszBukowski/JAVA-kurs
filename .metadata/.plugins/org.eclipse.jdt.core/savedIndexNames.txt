@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/media/mateusz/Seagate 500GB/Projekty/JAVA-kurs/.metadata/.plugins/org.eclipse.jdt.core
