@@ -1,7 +1,10 @@
 import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
 public class Rozdzial_2 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 // 2.2 Metody print i println
 //print i println
@@ -178,36 +181,110 @@ Ten program oblicza p�ace w firmie.
 //		System.out.println("Wprowadź liczbę całkowitą: ");
 //		number = klawiatura.nextInt();
 //		System.out.println("Gotowe, podałeś: " + number);
+//	
+//	String nazwisko; // Przechowywanie nazwiska.
+//	int godziny; 	 // Przechowywanie godziny.
+//	double payRate;  // Stawka godzinoowa.
+//	double grossPay; // Pensja brutto.
+//	
+//	// Tworzenie obiektu typu Scanner do wczytania danych wejśćiowych.
+//	Scanner klawiatura = new Scanner(System.in);
+//	
+//	//Pobranie nazwiska użytkownika.
+//	System.out.print("Jak się nazywasz? ");
+//	nazwisko = klawiatura.nextLine();
+//	
+//	//Pobieranie liczby godzin przepracowanych w tym tygodniu.
+//	System.out.print("Ile godzin przepracowałeś w tym tygodniu? ");
+//	godziny = klawiatura.nextInt();
+//	
+//	//Pobieranie stawki godzinowej użytkownika.
+//	System.out.print("Ile wynosi stawka godzinowa? ");
+//	payRate = klawiatura.nextDouble();
+//	
+//	//Obliczanie pensji brutto.
+//	grossPay = godziny * payRate;
+//	
+//	// Wyświetlanie wynikowych informacji.
+//	System.out.println("Witaj,  " + nazwisko + ".");
+//	System.out.println("Twoja pensja brutto wynosi " + grossPay + " złotych.");
+//	
+//// Pobranie znaków i tekstu od użytkownika
+//		String name; // Przechowywanie nazwy użytkownika.
+//		int age; // Przechowywanie wieku użytkownika.
+//		double income; // Przechowywanie dochodu użytkownika.
+//	
+//		// Tworzenie obiektu klasy Scanner w celu pobrania danych od użytkownika
+//		Scanner klawiatura = new Scanner(System.in);
+//		
+//		// Pobranie wieku użytkownika
+//		System.out.println("Ile masz lat?");
+//		age = klawiatura.nextInt();
+//		
+//		// Pobranie wieku użytkownika
+//		System.out.println("Ile wynosi twój roczny dochód ?");
+//		income = klawiatura.nextDouble();
+//		
+//		// Pobranie pozostałego znaku następnego wiersza
+//		klawiatura.nextLine();
+//		
+//		// Pobranie nazwiska uytkownika
+//		System.out.print("Jak się nazywasz? ");
+//		name = klawiatura.nextLine();
+//		
+//		// Wyświetlenie informacji użytkownikowi.
+//		System.out.println("Witaj, " + name + ". Twój wiek to " + age + ", a twój dochód wynosi " + income + " złotych.");
+		
+// 2.14 Okna dialogowe.
+//		String firstName, lastName;
+//		
+//		// Pobieranie imienia użytownika.
+//		firstName = JOptionPane.showInputDialog("Jak masz na imię?");
+//		
+//		// Pobieranie nazwiska użytownika.
+//		lastName = JOptionPane.showInputDialog("Jak się nazywasz?");
+//		
+//		// Wyświetlenie powitania.
+//		JOptionPane.showMessageDialog(null, "Witaj, " + firstName + " " + lastName + ".");
+//		
+//		System.exit(0);
+// Konwersja typu string na inne.
+/**
+    Ten program ilustruje używanie okien dialogowych 
+    za pomocą klasy JOptionPane.
+  */	
 	
-	String nazwisko; // Przechowywanie nazwiska.
-	int godziny; 	 // Przechowywanie godziny.
-	double payRate;  // Stawka godzinoowa.
-	double grossPay; // Pensja brutto.
-	
-	// Tworzenie obiektu typu Scanner do wczytania danych wejśćiowych.
-	Scanner klawiatura = new Scanner(System.in);
-	
-	//Pobranie nazwiska użytkownika.
-	System.out.print("Jak się nazywasz? ");
-	nazwisko = klawiatura.nextLine();
-	
-	//Pobieranie liczby godzin przepracowanych w tym tygodniu.
-	System.out.print("Ile godzin przepracowałeś w tym tygodniu? ");
-	godziny = klawiatura.nextInt();
-	
-	//Pobieranie stawki godzinowej użytkownika.
-	System.out.print("Ile wynosi stawka godzinowa? ");
-	payRate = klawiatura.nextDouble();
-	
-	//Obliczanie pensji brutto.
-	grossPay = godziny * payRate;
-	
-	// Wyświetlanie wynikowych informacji.
-	System.out.println("Witaj,  " + nazwisko + ".");
-	System.out.println("Twoja pensja brutto wynosi " + grossPay + " złotych.");
-	
-	
-	
+		String inputString; // Do wczytywanie danych wejściowych.
+		String name; 		// Nazwisko użytkownika.
+		int hours; 			// Liczba przepracowanych godzin.
+		double payRate; 	// Stawka godzinowa użytkownika;
+		double grossPay; 	// Pensja brutto użytkownika.	
+		
+		// Pobieranie nazwiska użytkownika.
+		name = JOptionPane.showInputDialog("Jak się nazywasz?");
+		
+		// Pobieranie liczby przepracowanych godzin.
+		inputString = JOptionPane.showInputDialog("ILe godzin przepracowałeś w tym tygodniu?");
+		
+		// Przekształcanie danych wejściowych na typ int.
+		hours = Integer.parseInt(inputString);
+		
+		// Pobieranie stawki godzinowej.
+		inputString = JOptionPane.showInputDialog("ILe wynosi twoja stawka godzinowa?");
+		
+		// Przekształcanie danych wejściowych na typ double.
+		payRate = Double.parseDouble(inputString);
+		
+		// Obliczanie pensji brutto.
+		grossPay = hours * payRate;
+		
+		// Wyświetlanie wyników.
+		JOptionPane.showMessageDialog(null, "Witaj, " +  name + ". Twoja pensja brutto wynosi " + grossPay + " złotych.");
+		
+		//Koniec programu.
+		System.exit(0);
+		
+		
 		
 	}
  
