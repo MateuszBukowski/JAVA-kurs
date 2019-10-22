@@ -120,12 +120,62 @@ public class Rozdzial_3 {
 //		if (!(temperature > 100))
 //			System.out.println("Temperatura spadła poniżej minimum! ");
 // Sprawdzanie przynależności liczb do przedziałów za pomocą operatorów logicznych
-		int x = 233;
-		if (x >= 20 && x <= 40)
-			System.out.println(x  + " znajduję się w dopuszczonym przedziale. ");
-		if (x < 20 || x > 40)
-			System.out.println(x  + " NIE znajduję się w dopuszczonym przedziale. ");		
+//		int x = 233;
+//		if (x >= 20 && x <= 40)
+//			System.out.println(x  + " znajduję się w dopuszczonym przedziale. ");
+//		if (x < 20 || x > 40)
+//			System.out.println(x  + " NIE znajduję się w dopuszczonym przedziale. ");		
 // 3.6.	Porównywanie obiektów typu String
+		/**
+	   		Ten program w poprawny sposób porównuje dwa obiekty 
+			typu String, używając metody equals.
+		*/	
+//		
+//		  String name1 = "Alan",
+//				 name2 = "Alan",
+//				 name3 = "Alka";
+//		  
+//		  // Porównanie Alan z Alan
+//		  if (name1.equals(name2))
+//		  {
+//			  System.out.println(name1 + " i " + name2 + " są identyczne.");
+//		  }
+//		  else
+//		  {
+//			  System.out.println(name1 + " i " + name2 + " NIE są identyczne.");
+//		  }
+//		
+//		// Porównanie Alan z Alka
+//		  if (name1.equals(name3))
+//		  {
+//			  System.out.println(name1 + " i " + name3 + " są identyczne.");
+//		  }
+//		  else
+//		  {
+//			  System.out.println(name1 + " i " + name3 + " NIE są identyczne.");
+//		  } 
+//// 3.7.	Jeszcze o deklarowaniu i zasięgu zmiennych		
+		
+//// 3.8.	Operator warunkowy (opcjonalny)	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
