@@ -157,12 +157,53 @@ public class Rozdzial_3 {
 //// 3.7.	Jeszcze o deklarowaniu i zasięgu zmiennych		
 		
 //// 3.8.	Operator warunkowy (opcjonalny)	
+		// Pierwszy przykład
+//		int x, y, z;
+//		
+//		x = 1;
+//		y = 2;			
+//		
+//		z = x > y ? 1 : 20;
+		//
+//		Drugi przykład
+//		System.out.println("Z = " + z);
+//		int result = -1;
+//		String wynik;
+//		wynik = result >= 0 ? "Wynik jest dodatni." : "Wynik jest ujemny.";
+//		System.out.println(wynik);
+////  3.9.	Instrukcja switch
 		
+  /**
+    Ten program ilustruje działanie instrukcji switch.
+  */	
 		
+//		int number ; // Liczba wprowadzona przez użytkownika
+//		
+//		// Tworzenie obiektu klasy Scanner do pobierania danych z klawiatury.
+//		Scanner keyboard = new Scanner(System.in);
+//		
+//		// Pobieranie od użytkownika jednej z liczb: 1, 2 lub 3.
+//		System.out.print("Wpisz 1, 2 lub 3: ");
+//		number = keyboard.nextInt();
+//		
+//		// Określanie wprowadzonej wartości.
+//		switch (number)
+//		{
+//		case 1:
+//			System.out.println("Wpisałeś 1.");
+//			break;
+//		case 2:
+//			System.out.println("Wpisałeś 2.");
+//			break;
+//		case 3:
+//			System.out.println("Wpisałeś 3.");
+//			break;
+//		default:
+//			System.out.println("Wartość jest inna niż 1,2 lub 3!");
+//			
+//		}
 		
-		
-		
-		
+//// 3.10.	Wyświetlanie sformatowanych danych wyjściowych za pomocą instrukcji System.out.printf i String.format
 		
 		
 		
