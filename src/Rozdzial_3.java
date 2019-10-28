@@ -204,10 +204,58 @@ public class Rozdzial_3 {
 //		}
 		
 //// 3.10.	Wyświetlanie sformatowanych danych wyjściowych za pomocą instrukcji System.out.printf i String.format
+		/**
+			Ten program wyświetla różne liczby
+			zmiennoprzecinkowe w kolumnie, wyrównane
+			względem kropki dziesiętnej.
+		*/
 		
+		// Deklarowanie różnych zmiennych typu double.
+//		double num1 = 127.899;
+//		double num2 = 3465.148;
+//		double num3 = 3.776;
+//		double num4 = 264.821;
+//		double num5 = 88.081;
+//		double num6 = 1799.999;
+//		// Wyświetlanie każdej zmiennej w polu o długości
+//		// ośmiu znaków z dwoma cyframi po przecinku.
+//		System.out.printf("%8.2f\n", num1);
+//		System.out.printf("%8.2f\n", num2);
+//		System.out.printf("%8.2f\n", num3);
+//		System.out.printf("%8.2f\n", num4);
+//		System.out.printf("%8.2f\n", num5);
+//		System.out.printf("%8.2f\n", num6);
+//		
+//		double amount = 1234567.89;
+//		System.out.printf("%,f\n", amount);
+//		
+//		double sales = 28756.89;
+//		System.out.printf("Sprzedaż w tym miesiącu wyniosła %,.2f.\n", sales);
 		
+		/**
+		 * Ten program pokazuje, jak stosować metodę System.out.printf
+		 * do formatowania liczb jako kwot pieniędzy.
+		 */
+//		double monthlyPay = 5000.0;
+//		double annualPay = monthlyPay * 12;
+//		System.out.printf("Roczna pensja wynosi %,.2f złotych.\n", annualPay);
 		
+		/**
+		 * Ten program wyświetla liczby dopełnione początkowymi zerami.
+		 */
 		
+		// Deklarowanie różnych zmiennych typu double.
+//		double number1 = 1.234;
+//		double number2 = 12.345;
+//		double number3 = 123.456;
+//		
+//		// Wyświetlanie każdej zmiennej z początkowymi zerami
+//		// w polu o szerokości 9 znaków
+//		// i z zaokrągleniem do dwóch miejsc po przecinku.
+//		System.out.printf("%09.2f\n", number1);
+//		System.out.printf("%09.2f\n", number2);
+//		System.out.printf("%09.2f\n", number3);
+//// Metoda String.format
 		
 		
 		
