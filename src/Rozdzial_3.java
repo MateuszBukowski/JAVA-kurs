@@ -256,11 +256,15 @@ public class Rozdzial_3 {
 //		System.out.printf("%09.2f\n", number2);
 //		System.out.printf("%09.2f\n", number3);
 //// Metoda String.format
-		
-		
-		
-		
-		
+//		String.format(ŁańcuchFormatowania, ListaArgumentów)
+		/**
+		  Ten program pokazuje, jak używać metody String.format
+		  do formatowania liczby jako kwoty pieniędzy.
+		*/
+		double monthlyPay = 5000.0;
+		double annualPay = monthlyPay * 12;
+		String output = String.format("Roczna pensja wynosi %,.2f złotych.", annualPay);
+		JOptionPane.showMessageDialog(null, output);
 		
 		
 		
