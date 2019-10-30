@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Rozdzial_4 {
 
@@ -31,8 +32,20 @@ public class Rozdzial_4 {
 //		}
 //		System.out.println("To już wszystko!");
 //// 4.3.	Stosowanie pętli while do sprawdzania poprawności danych wejściowych
-		
-		
+//		int number;
+//		// Tworzenie obiektu klasy Scanner do pobierania danych z klawiatury.
+//		Scanner keyboard = new Scanner(System.in);
+//		// Pobieranie liczby od użytkownika.
+//		System.out.print("Podaj liczbę z przedziału od 1 do 100: ");
+//		number = keyboard.nextInt();
+//		// Sprawdzanie poprawności danych wejściowych.
+//		while (number < 1 || number > 100)
+//		{
+//			  System.out.print("Błędne dane wejściowe. Podaj liczbę z przedziału" +
+//			                   "od 1 do 100: ");
+//			  number = keyboard.nextInt();
+//			}
+//// 4.4.	Pętla do-while
 		
 		
 		
