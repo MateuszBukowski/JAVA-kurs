@@ -20,5 +20,6 @@ public class Rozdzial_5 {
 		
 //	5.2
 //	5.3
-	}
+//  5.4
+		
 }
