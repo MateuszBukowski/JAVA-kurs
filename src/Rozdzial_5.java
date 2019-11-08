@@ -20,7 +20,14 @@ public class Rozdzial_5 {
 		
 //	5.2
 //	5.3
+<<<<<<< HEAD
 //// 5.4.	Zwracanie wartoÅ›ci przez metody
 		
 	}
+=======
+//  5.4
+// 5.5
+		// 5.6
+		// koniec rozdzia³u
+>>>>>>> fe44531f32b9c316af84599147451f3ab63d3c18
 }
