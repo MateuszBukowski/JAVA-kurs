@@ -11,7 +11,20 @@ public class Rectangle
 	
 	private double length;
 	private double width;
+	
+	
+	/**
+	 * Konstruktor
+	 * @param len Długość prostokąta.
+	 * @param w Szerokość prostokąta.
+	 */
 
+	public Rectangle(double len, double w)
+	
+	{
+		length = len;
+		width = w;
+	}
 
 	/**
 	 Metoda setLength zapisuje wartosc w polu length.
