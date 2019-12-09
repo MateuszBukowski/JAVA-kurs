@@ -49,5 +49,13 @@ public class Stock
 					"\nCena akcji: " + sharePrice;
 		return str;
 	}
+	public Stock copy()
+	{
+		// Tworzenie nowego obiektu typu Stock i inicjowanie
+		// go danymi przechowywanymi w obiekcie zawieraj¹cym wywo³an¹ metodê.
+		Stock copyObject = new Stock(symbol, sharePrice);
+		// Zwracanie referencji do nowego obiektu
+		return copyObject;
+	}
 }
 
